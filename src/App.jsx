@@ -1,12 +1,11 @@
 import { useState } from 'react'
-import reactLogo from './assets/react.svg'
-import viteLogo from '/vite.svg'
-import './App.css'
-import Breadcrumb from 'react-bootstrap/Breadcrumb';
-import Col from 'react-bootstrap/Col';
-import Container from 'react-bootstrap/Container';
-import Image from 'react-bootstrap/Image';
-import Row from 'react-bootstrap/Row';
+import { BrowserRouter as Router, Route, Routes } from 'react-router-dom';
+import About from './pages/about';
+import Home from './pages/home';
+import Contact from './pages/contact';
+import Hobbies from './pages/hobbies';
+import Picture from './pages/picture';
+import Education from './pages/education';
 
 
 function App() {
@@ -14,19 +13,24 @@ function App() {
   
 
   return (
-    <><>
-     <Breadcrumb>
-      <Breadcrumb.Item href="#">MY PROFILE</Breadcrumb.Item>
-      <Breadcrumb.Item href="https://getbootstrap.com/docs/4.0/components/breadcrumb/">
-        HOBBIES
-      </Breadcrumb.Item>
-      <Breadcrumb.Item active>PICTURE </Breadcrumb.Item>
-    </Breadcrumb>
+    <>
+     <Router>
+    <div className="container">
+      <Routes>
+        <Route path="/" element={<Home />} />
+        <Route path="/about" element={<About />} />
+        <Route path="/education" element={<Education />} />
+        <Route path="/hobbies" element={<Hobbies />} />
+        <Route path="/contact" element={<Contact />} />
+        <Route path="/picture" element={<Picture />} />
+      </Routes>
+    </div>
+    </Router>
    
    
   </>
     
-   </>
+   
    
   )
 }
