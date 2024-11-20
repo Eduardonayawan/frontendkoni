@@ -3,36 +3,20 @@ import Layout from '../components/Layout';
 const Hobbies = () => {
   return (
     <Layout>
-      <div className="card shadow p-4" style={{ backgroundColor: 'lightgrey' }}>
+      <div className="card shadow p-4" style={{ backgroundColor: 'darkgrey' }}>
         <h2>My Hobbies</h2>
         <p>
-          I’ve always believed that a balanced life includes a mix of intellectual and creative pursuits, and my hobbies reflect that philosophy.
+        Basketball has always been more than just a sport to me; it’s a source of pure enjoyment and a passion that fills my heart with energy. From the first time I picked up a basketball, I felt a connection to the game that has only grown stronger over the years. The feeling of the ball bouncing under my hands, the thrill of making a perfect shot, and the rush of competing with friends — it’s an experience I never tire of. For me, playing basketball is about more than just scoring points or winning; it’s about having fun, challenging myself, and feeling alive in the moment.
         </p>
         <ul>
           <li>
-            <strong>Reading Books</strong>  
-            <p>
-              I’m an avid reader and believe that books are windows to new worlds. Whether it’s fiction that sparks my imagination or non-fiction that broadens my knowledge, I’m always looking for my next great read. From science fiction to biographies, I love diving into stories that challenge my thinking and expand my perspective.
-            </p>
-          </li>
-          <li>
             <strong>Watching Movies</strong>  
             <p>
-              Movies are another passion of mine. I enjoy getting lost in different genres, from heartwarming dramas to thrilling action flicks. I’m especially drawn to films with a compelling storyline or incredible visuals. Cinema has a unique way of transporting me to different times, places, and worlds, and I appreciate the creativity and craftsmanship that go into making every film.
+            Watching movies has always been one of my favorite hobbies, and it's easy to understand why. For me, movies are more than just a form of entertainment — they are an escape, a way to experience new worlds, and a means of connecting with emotions, ideas, and cultures in a way that is both fun and enriching. Whether I'm watching a thrilling action film, a heartwarming drama, or a thought-provoking documentary, the experience of immersing myself in a great movie brings me a sense of joy and fulfillment.
             </p>
           </li>
-          <li>
-            <strong>Playing Video Games</strong>  
-            <p>
-              Video games aren’t just a way to unwind for me; they’re an immersive experience. I enjoy everything from strategy games that make me think on my feet to action-packed games that get my heart racing. The worlds in these games are vast, filled with challenges, and often tell intricate stories that captivate me for hours. Plus, it’s a great way to connect with friends and enjoy a little friendly competition.
-            </p>
-          </li>
-          <li>
-            <strong>Coding</strong>  
-            <p>
-              Coding is both a hobby and a career passion. I love the challenge of solving problems and bringing ideas to life through code. Whether I’m building websites or experimenting with new technologies, I find immense satisfaction in writing clean, efficient code. It’s not just about creating functional apps or websites, but about constantly learning and pushing the limits of what’s possible.
-            </p>
-          </li>
+          
+
         </ul>
       </div>
     </Layout>
