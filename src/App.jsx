@@ -8,6 +8,7 @@ import Picture from './pages/picture';
 import Education from './pages/education';
 
 
+
 function App() {
   const [count, setCount] = useState(0)
   
