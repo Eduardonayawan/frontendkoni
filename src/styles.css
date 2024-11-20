@@ -1,22 +1,117 @@
+/* Global Styles */
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
 body {
-    background-color: #ffffff;
-    margin: 0;
-    font-family: Arial, sans-serif;
-    min-height: 100vh;
+  font-family: 'Arial', sans-serif;
+  background: #2C3E50; /* Dark Charcoal Background */
+  color: #ECF0F1; /* Off-White Text Color */
+  margin: 0;
+  min-height: 100vh;
+}
+
+/* Layout Container */
+.layout-container {
+  display: flex;
+  flex-direction: column;
+  min-height: 100vh;
+}
+
+/* Header Section */
+.header {
+  background-color: #2C3E50; /* Dark Charcoal */
+  color: #F1C40F; /* Gold */
+  padding: 50px;
+  text-align: center;
+  border-bottom: 3px solid #F1C40F; /* Gold border */
+}
+
+.header h1 {
+  font-size: 3rem;
+  font-weight: bold;
+}
+
+.header h4 {
+  font-size: 1.2rem;
+  font-weight: lighter;
+  color: #F1C40F; /* Gold */
+}
+
+/* Navigation Bar */
+.nav-bar {
+  margin-top: 20px;
+}
+
+.nav-link {
+  color: #F1C40F; /* Gold */
+  text-decoration: none;
+  font-size: 18px;
+  margin: 0 20px;
+  padding: 10px 25px;
+  border-radius: 5px;
+  transition: background-color 0.3s ease, transform 0.2s ease;
+}
+
+.nav-link:hover {
+  background-color: #F39C12; /* Light Gold Hover */
+  color: #2C3E50; /* Dark Charcoal */
+  transform: translateY(-3px); /* Hover effect */
+}
+
+/* Main Content Section */
+.main-content {
+  flex-grow: 1;
+  padding: 40px;
+  background-color: #34495E; /* Medium Charcoal */
+  box-shadow: 0 2px 10px rgba(0, 0, 0, 0.2);
+  margin: 30px auto;
+  max-width: 1200px;
+  border-radius: 8px;
+}
+
+/* Footer Section */
+.footer {
+  background-color: #2C3E50; /* Dark Charcoal */
+  color: #F1C40F; /* Gold */
+  text-align: center;
+  padding: 20px;
+  margin-top: auto;
+}
+
+.footer p {
+  font-size: 16px;
+}
+
+/* Responsive Design */
+@media (max-width: 768px) {
+  .header h1 {
+    font-size: 2.5rem;
   }
-  
-  body {
-    background: linear-gradient(to right, #e49581de, #dd9e6e);
-    margin: 0;
-    min-height: 100vh;
-    font-family: Arial, sans-serif;
+
+  .header h4 {
+    font-size: 1rem;
   }
-  
-  footer {
-    position: relative;
-    margin-top: auto;
+
+  .nav-link {
+    font-size: 16px;
+    margin: 0 10px;
   }
-  
-.smaller-h4 {
-  font-size: 1rem;
+
+  .main-content {
+    padding: 20px;
+  }
+}
+
+@media (max-width: 480px) {
+  .nav-link {
+    font-size: 14px;
+    margin: 0 8px;
+  }
+
+  .footer p {
+    font-size: 14px;
+  }
 }

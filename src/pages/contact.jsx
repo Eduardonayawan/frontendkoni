@@ -17,9 +17,9 @@ const Contact = () => {
           <h4>Social Media</h4>
           <p>Connect with me on the following platforms:</p>
           <ul>
-            <li><strong><a href="https://www.facebook.com" target="_blank" rel="noopener noreferrer">Facebook</a></strong></li>
-            <li><strong><a href="https://www.instagram.com" target="_blank" rel="noopener noreferrer">Instagram</a></strong></li>
-            <li><strong><a href="https://www.github.com" target="_blank" rel="noopener noreferrer">GitHub</a></strong></li>
+            <li><strong><a href="https://www.facebook.com/roy.parcero" target="_blank" rel="noopener noreferrer">Facebook</a></strong></li>
+            <li><strong><a href="https://www.instagram.com/roiparcero/" target="_blank" rel="noopener noreferrer">Instagram</a></strong></li>
+            <li><strong><a href="https://github.com/royparcero30" target="_blank" rel="noopener noreferrer">GitHub</a></strong></li>
           </ul>
         </div>
       </div>

@@ -3,25 +3,30 @@ import '../styles.css';
 
 const Layout = ({ children }) => {
   return (
-    <div className="d-flex flex-column min-vh-100">
-      <header className="bg-secondary text-dark text-center py-4">
-        <h1>My Personal Website</h1>
-        <h4 className="smaller-h4">By: Roy Parcero</h4>
-        
-        <nav>
-            <Link to="/" className="btn btn-warning m-1">Home</Link>
-            <Link to="/about" className="btn btn-warning m-1">About</Link>
-            <Link to="/education" className="btn btn-warning m-1">Education</Link>
-            <Link to="/hobbies" className="btn btn-warning m-1">Hobbies</Link>
-            <Link to="/contact" className="btn btn-warning m-1">Contact</Link>
-            <Link to="/picture" className="btn btn-warning m-1">Picture</Link>
-          </nav>
+    <div className="layout-container">
+      {/* Header Section */}
+      <header className="header">
+        <div className="header-content">
+          <h1>Roy Parcero</h1>
+          <h4>My Personal Website</h4>
+        </div>
+
+        {/* Navigation Bar */}
+        <nav className="nav-bar">
+          <Link to="/" className="nav-link">Home</Link>
+          <Link to="/about" className="nav-link">About</Link>
+          <Link to="/education" className="nav-link">Education</Link>
+          <Link to="/hobbies" className="nav-link">Hobbies</Link>
+          <Link to="/contact" className="nav-link">Contact</Link>
+        </nav>
       </header>
 
-      <main className="flex-grow-1 container my-4">{children}</main>
+      {/* Main Content */}
+      <main className="main-content">{children}</main>
 
-      <footer className="bg-secondary text-dark text-center py-3 mt-4">
-        <p>&copy; 2024 My Personal Website. All Rights Reserved.</p>
+      {/* Footer Section */}
+      <footer className="footer">
+        <p>&copy; 2024 Roy Parcero. All Rights Reserved.</p>
       </footer>
     </div>
   );
