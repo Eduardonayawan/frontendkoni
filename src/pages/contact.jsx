@@ -10,7 +10,7 @@ const Contact = () => {
         
         <div className="mb-3">
           <h4>Email</h4>
-          <p>You can reach me via email at: <strong><a href="mailto:enayawan@gbox.ncf.edu.ph">enayawan@gbox.ncf.edu.ph</a></strong></p>
+          <p>You can reach me via email at: <strong><a href="mailto:rparcero@gbox.ncf.edu.ph">rparcero@gbox.ncf.edu.ph</a></strong></p>
         </div>
 
         <div className="mb-3">
