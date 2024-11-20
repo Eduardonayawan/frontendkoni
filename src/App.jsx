@@ -4,7 +4,6 @@ import About from './pages/about';
 import Home from './pages/home';
 import Contact from './pages/contact';
 import Hobbies from './pages/hobbies';
-import Picture from './pages/picture';
 import Education from './pages/education';
 
 
@@ -23,7 +22,6 @@ function App() {
         <Route path="/education" element={<Education />} />
         <Route path="/hobbies" element={<Hobbies />} />
         <Route path="/contact" element={<Contact />} />
-        <Route path="/picture" element={<Picture />} />
       </Routes>
     </div>
     </Router>
