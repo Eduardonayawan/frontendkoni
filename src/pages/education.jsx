@@ -18,7 +18,14 @@ const Education = () => {
           <h4>Secondary Education</h4>
           <p><strong>School:</strong> Sagurong High School</p>
           <p><strong>Address:</strong> Zone 5B Sagurong, Pili, Camarines Sur</p>
-          <p><strong>Year of Graduation:</strong> 2015</p>
+          <p><strong>Year of Graduation:</strong> 2018-2019</p>
+        </div>
+
+        <div className="mb-4">
+          <h4>Senior High</h4>
+          <p><strong>School:</strong> ACLC naga </p>
+          <p><strong>Address:</strong> elias angeles street naga city</p>
+          <p><strong>Year of Graduation:</strong> 2019-2021</p>
         </div>
 
         <div className="mb-4">
